@@ -4,11 +4,13 @@
   "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
