@@ -51,3 +51,17 @@ body {
   left: -2%;
   top: 70%;
 }
+.imgWrapper img {
+  width: 150px;
+}
+.skillsWrapper {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+.skillsWrapper h2 {
+  margin-bottom: 20px;
+  font-size: 1.9em;
+  font-weight: 500;
+  text-align: center;
+}
