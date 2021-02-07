@@ -2,6 +2,7 @@ import React from "react";
 import BannerCanvas from "./components/BannerCanvas";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import MyLab from "./components/MyLab";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <BannerCanvas />
       <About />
       <Skills />
+      <MyLab />
     </>
   );
 };

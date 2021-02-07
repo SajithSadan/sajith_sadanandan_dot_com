@@ -52,7 +52,7 @@ body {
   top: 70%;
 }
 .imgWrapper img {
-  width: 150px;
+  width: 125px;
 }
 .skillsWrapper {
   width: 80%;
@@ -64,4 +64,56 @@ body {
   font-size: 1.9em;
   font-weight: 500;
   text-align: center;
+}
+.myLab {
+  background-color: #fff;
+}
+.myLab .wrapper {
+  width: 80%;
+  margin: 2% auto;
+  padding: 50px 0;
+}
+.bubble1,
+.bubble2,
+.bubble3 {
+  animation: bubbleUp 2s infinite;
+}
+.bubble2 {
+  animation-delay: 0.5s;
+}
+.bubble3 {
+  animation-delay: 0.75s;
+}
+@keyframes bubbleUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+.waterLevel {
+  transform-origin: center;
+  animation: waterLevelGrow 2s infinite;
+}
+@keyframes waterLevelGrow {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.labTitle {
+  color: #4ad7d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.labTitle h2 {
+  font-size: 2em;
 }
