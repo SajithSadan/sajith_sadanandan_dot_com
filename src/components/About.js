@@ -57,7 +57,7 @@ const About = () => {
       <p style={styles.p} className={`text ${visible.p ? "visible" : ""}`}>
         In 2015, I switch to my current employer. And I have started working
         with HTML5 Canvas applications. It was very interesting to create
-        product customization toll for e commerce applications. Then I learned
+        product customization tool for e commerce applications. Then I learned
         React JS and started thinking reactive. Now I have been working in React
         and Redux for the past 3 years.
       </p>
